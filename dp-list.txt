@@ -1,0 +1,366 @@
+LA 3882
+UVa 3882 - And Then There Was One 递推------------无力orz
+UVa 10635
+10635 - Prince and Princess LCS&LIS
+UVa 10891
+Uva 10891 - Game of Sum dp博弈
+UVa 11825
+Uva 11825 - Hackers' Crackdown 状态压缩
+UVa 10859
+Uva 10859 - Placing Lampposts 树形dp
+LA 3983
+LA 4794
+
+简单练习题
+UVa 11584
+UVa 11584 - Partitioning by Palindromes 回文串dp
+UVa 4256
+UVa 4256 - Salesmen dp
+UVa 10534
+UVa 10534 - Wavio Sequence LIS
+UVa 11552
+Uva 11552 - Fewest Flops 字符串dp
+UVa 11404
+UVa 11404 - Palindromic Subsequence DP LCS
+LA 4731
+Uva 1456 - Cellular Network 概率dp
+UVa 11795
+UVa 11795 - Mega Man's Mission 状态压缩dp
+LA 4727
+LA 3530
+Uva 1366 - Martian Mining dp
+UVa 10564
+UVa 10817
+LA 2038
+Uva 1292 - Strategic game 树形dp 最小点覆盖
+LA 3363
+LA 2031
+LA 4643
+有难度的练习
+LA 4394
+LA 4327
+LA 4945
+LA 4015
+LA 4490
+UVa 11600
+LA 4987
+LA 4593
+LA 4048
+LA 4625
+LA 4613
+LA 4614
+LA 4050
+LA 3305
+LA 3683
+LA 3637
+LA 3412
+LA 5717
+LA 3679
+LA 3605
+LA 3608
+LA 3610
+LA 3623
+LA 4002
+LA 2178
+LA 2221
+LA 2923
+LA 2930
+LA 3132
+LA 3181
+LA 3710
+LA 4290
+LA 5088
+UVa 10559
+LA 3782
+LA 4031
+UVa 11521
+概率dp
+hdu 3853 LOOPS 圆环之理 概率dp
+Codeforces 148D - Bag of mice 概率dp
+poj 2151 Check the difficulty of problems 概率dp
+poj 3071 football 概率dp
+hdu 4089  Activation
+hdu 4035 Maze
+zoj 3551 Bloodsucker
+
+单调队列优化dp
+形如f[i]=max/min (k[k]) + g[i]  （k<i && g[i]是与k无关的变量）可进行单调队列优化
+维护方法：
+while(head<tail && check(L[head])) head++; 
+while(head<tail && Que[tail-1]<k[i-1]) tail--; 
+Que[tail]=k[i-1];L[tail++]=i-1;
+POJ 2823
+HDU 3415
+hdu 3415 Max Sum of Max-K-sub-sequence 单调队列dp
+HDU 3401
+POJ 1821
+HDU 2191
+
+斜率优化dp
+HDU 3507
+
+
+
+训练参考
+UVaOJ
+111 历史考试
+UVa 111 - History Grading 最长递增子序列 LIS
+103 堆砌盒子
+10405 最长公共子序列
+UVa 10405 - Longest Common Subsequence 最长公共子序列模板
+674 硬币找零
+UVa 674 - Coin Change 背包dp
+10003 切割木棍
+116 单项TSP
+10131 越大越聪明
+10131 - Is Bigger Smarter? 水dp
+10066 双塔
+10192 假期
+UVa 10192 - Vacation 字符串dp
+147 美元
+UVa 147 - Dollars 背包
+357 让我来数数方案
+UVa 357 - Let Me Count The Ways 背包
+562 划分硬币
+UVa 562 - Dividing coins 背包
+348 最优数组乘法序列
+624 CD
+10130 超级天平
+UVA10130 - SuperSale 背包
+531 妥协
+10465 或默辛普森
+UVa 10465 - Homer Simpson 背包
+10285 滑雪
+UVa 10285 - Longest Run on a Snowboard 记忆化搜索
+437 巴比伦塔
+UVa 437 - The Tower of Babylon LIS
+10404 Bachet的游戏
+620 细胞结构
+825 走在安全的一边
+10069 不同的子序列
+10534 波形序列
+10051 立方体塔
+10651 一维独立钻石
+UVa 10651 - Pebble Solitaire 状态压缩 dp
+590 来去匆匆
+10306 电子硬币
+10739 字符串变回文
+UVa 10739 - String to Palindrome 字符串dp
+10304 最优排序二叉树
+10271 筷子
+UVa 10271 - Chopsticks dp
+10617 又是回文数
+UVa 10617 - Again Palindrome 字符串dp
+11137 立方数拆分
+UVa 11137 - Ingenuous Cubrency 背包
+10154 重量和度量
+UVa 10154 - Weights and Measures dp 降维
+10201 移动大冒险第四部
+10453 制造回文串
+UVa 10453 - Make Palindrome 字符串dp
+10029 编辑步数
+10313 付账
+10401 受伤的皇后
+10891 取数游戏
+11151 最长回文串
+UVa 11151 - Longest Palindrome 字符串dp
+10911 智力比赛组队
+UVa 10911 - Forming Quiz Teams 状态压缩dp
+10635 王子和公主
+10564 沙漏中的路径
+662 快餐
+10626 买可乐
+10118 免费糖果
+607 讲座安排
+10604 化学反应
+10913 网格上行走
+UVa 10913 - Walking on a Grid dp
+11008 反物质射线
+10723 电子基因
+UVa 10723 - Cyborg Genes LCS
+11258 字符串分割
+10599 机器人
+10817 校长的烦恼
+10163 守店人
+709 文本格式化
+10280 新瓶装旧酒
+10558 邪恶党的密谋
+11081 字符串穿插
+CII
+2422
+2344
+2324
+2560
+2511
+2426
+2451
+2583
+2587
+2614
+2692
+2675
+2669
+2161
+3136
+3132
+3151
+3189
+3267
+3305
+3492
+3516
+3215
+3222
+2810
+2812
+3983
+4404
+3978
+2532
+3884
+3404
+4058
+3608
+4040
+
+
+
+UVa专题练习
+A-4
+10003 经典dp，可用四边形不等式优化
+UVa 10003 - Cutting Sticks 区间dp
+10029 基础dp，DAG最长路，需高效构图
+10032 经典问题。子集和数问题。01背包问题
+10036 能否在一个整数序列的每相邻两项之间添加一个加减号。使最终结果能被一个定整数K整除
+10051 简单dp。DAG最长路
+
+A-5
+10154 dp中等
+10163 二分、dp
+10185 二叉树。dp、贪心
+A-6
+10239 不错的dp，可优化，解决更大规模的问题
+10271 经典dp，需要证明一个结论
+10280 dp、最短路
+10296 中国油路问题，最短路，任意图最大匹配，用集合dp求解
+A-7
+10304 经典问题（OBST），dp，可用四边形不等式加速
+A-8
+10401 棋盘上的dp
+A-9
+10558 dp需输出方案
+10559 dp有难度
+10581 dp
+10599 经典dp问题
+A-10
+10604 dp
+10618 以跳舞机为背景的dp，需输出方案
+10626 dp
+10641 dp
+10645 dp，输出方案
+10671 dp，递推（偏难）
+10688 dp
+A-11
+10767 dp
+A-12
+10857 集合dp，需时间优化
+10863 经典dp题目
+A-13
+10941 dp
+10981 字符串dp
+A-14
+11061 dp，概率
+A-15
+11104 和LCS相关的dp
+11133 dp
+11141 dp（偏难）
+11166 进位制，dp、贪心
+11169 概率，集合dp
+11171 字符串dp、输出方案、Trie加速
+11176 dp、概率
+11193 表达式并行计算、dp
+11194 dp（偏难）
+A-16
+11240 dp、贪心
+11252 dp需优化
+11263 dp单调队列优化
+11293 dp
+11295 dp（偏难）
+11299 dp（偏难）
+A-17
+11303 dp需高精度
+11307 树的dp
+11328 概率、dp
+11366 dp需优化或中途相遇法
+A-18
+11400 dp
+A-19
+11502 物理背景、积分、dp
+11517 硬币问题变形、dp
+11521 dp（难）
+11531 轮廓线dp
+11560 概率、数学期望、dp、贪心
+11578 dp、输出方案
+11584 dp（入门级）
+A-20
+11600 dp、最小表示
+11611 轮廓线dp（入门级）
+11691 集合dp
+11698 dp、排列、数论
+A-21
+11700 轮廓线dp或网络流
+11725 轮廓线dp
+11750 dp（配合图论）
+11755 dp、概率、高斯消元
+11766 数学建模、dp
+11782 树上的dp
+A-22
+11803 dp（配合图论）
+11810 树上的集合dp（需优化）
+11828 dp、预处理
+11856 0-1背包变形（实数）
+11891 dp
+A-23
+11908 dp
+11913 dp
+A-24
+12002 dp、可转化为LIS
+12018 切水果背景dp（入门级）
+UVa 12018 - Juice Extractor 切水果dp----------暂时存疑
+12294 dp（入门级）
+
+
+
+动态规划初步
+1  数字三角形
+1.1 记忆化搜索
+
+1.2 递推
+
+2 DAG上的动态规划
+2.1 DAG模型
+
+2.2 最长路及其字典序
+
+2.3 固定终点的最长路和最短路
+nefu 661 Clockwise 水DP+略几何
+3 背包问题
+3.1 多阶段决策问题
+
+3.2 规划方向
+
+3.3 滚动数组
+NEFU 696 Dart game 背包dp
+4 递归结构中的动态规划
+4.1 表达式上的动态规划
+
+4.2 凸多边形上的动态规划
+
+4.3 树上的动态规划
+
+5 集合上的动态规划
+5.1 状态及其转移
+
+5.2 隐含的阶段
+------------
+NEFU English Game 字符串 dp 字典树
