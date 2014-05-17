@@ -4,7 +4,7 @@
     > Mail: mengshangqi@gmail.com 
     > Created Time: 2014年05月17日 星期六 15时21分08秒
  ************************************************************************/
-
+//双调欧几里得
 #include<iostream>
 #include<cstdio>
 #include<set>
