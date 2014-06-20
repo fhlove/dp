@@ -11,9 +11,9 @@ LANG: C++
 using namespace std;
 typedef long long LL;
 const int N=(1<<17);
-LL dp[N];
-int s[N];
-int rob[17];
+LL dp[N];//对应机器人状态的方法数目
+int s[N];//处理出来摧毁的机器人集合从而得到的武器集合
+int rob[17];//处理出来武器的集合
 void init()
 {
     memset(dp,0,sizeof(dp));
